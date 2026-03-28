@@ -50,10 +50,3 @@ def get_user_timezone(user_id: int) -> str:
         return "UTC"
 
 
-
-init_db()
-set_user_timezone(1, "EST")
-
-print(get_user_timezone(1))
-print(get_user_timezone(2))
-
