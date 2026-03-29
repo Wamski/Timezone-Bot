@@ -1,10 +1,10 @@
 import sqlite3
 
-def init_db():
+def init_db() -> None:
     connection = sqlite3.connect('bot_data.db')
     cursor = connection.cursor()
 
-    # Create user preference table 
+    # Create table: 'user_prefs' 
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS
     user_prefs(user_id INTEGER PRIMARY KEY, timezone TEXT NOT NULL)
@@ -17,7 +17,7 @@ def set_user_timezone(user_id: int, timezone: str) -> None:
     connection = sqlite3.connect('bot_data.db')
     cursor = connection.cursor()
 
-    # Upsert: Insert if new, update if exists
+    # Upsert: Insert if new user preference, update if exists
     cursor.execute("""
     INSERT INTO user_prefs(user_id, timezone)
     VALUES (?, ?)
