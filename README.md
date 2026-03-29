@@ -28,8 +28,8 @@ pip3 install -r requirements.txt
     3. Enable Intents  
     Inside of the Bot application, on the side bar, select "Bot". From there you must enable all of the intents for the bot to be able to read messages.  
     
-    <img alt="Intents" src="/Images/Intents.png">
-    <br><br>
+    <img alt="Intents" src="/Images/Intents.png">  
+    <br><br>  
     
     4. Reset and Obtain the Bot Token  
     Still inside the "Bot" tab, select the button saying "Reset Token". This might require a 2FA code to be able to reset. Once this is reset, it will give the token that needs to be placed into `.env`.
@@ -37,20 +37,20 @@ pip3 install -r requirements.txt
     <img alt="Reset" src="/Images/Reset.png">
 
 
-5. Setup .env  
+4. Setup .env  
 Here is a .env example. Replace "your_token_here" with a token obtained from Discord's developer portal.
 ```bash
 DISCORD_TOKEN=your_token_here
 ```
 
 5. Invite the bot to your server  
-    1. Select the "OAuth2" section on the sidebar. 
-    2. From the "OAuth2 URL Generator" select bot
-    <img alt="Bot" src="/Images/Bot.png">
-    3. Bot permissions: Select "Send Messages" and "Read Message History"
-    <img alt="Perms" src="/Images/Perms.png">
-    4. Paste the generated URL on your address bar.
-    5. Select the server you would like the bot to join and approve the permissions.
+    1. Select the "OAuth2" section on the sidebar.   
+    2. From the "OAuth2 URL Generator" select bot.  
+        <img alt="Bot" src="/Images/Bot.png">  
+    3. Bot permissions: Select "Send Messages" and "Read Message History"  
+        <img alt="Perms" src="/Images/Perms.png">  
+    4. Paste the generated URL on your address bar.  
+    5. Select the server you would like the bot to join and approve the permissions.  
     <p align="center">
         <img alt="SelectServer" src="/Images/SelectServer.png" width="45%">
         <img alt="SelectPerms" src="/Images/SelectPerms.png" width="45%">
