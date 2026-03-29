@@ -1,4 +1,4 @@
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="38" align="left" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="60px" style="padding-right:10px;" align="left" />
 
 # Timezone Discord Bot
 
