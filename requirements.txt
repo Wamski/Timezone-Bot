@@ -1,0 +1,4 @@
+dateparser==1.4.0
+DateTime==6.0
+discord.py==2.7.1
+python-dotenv==1.2.2
