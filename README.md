@@ -20,17 +20,23 @@ source .venv/bin/activate
 pip3 install -r requirements.txt
 ```
 3. Obtain a Discord Bot Token
-<img align="right" alt="NewApp" width=30% src="/Images/NewApp.png">  
-    1. Create a new App
+    <img align="right" alt="NewApp" width=30% src="/Images/NewApp.png">
+
+    1. Create a new App  
+
     2. Enable Intents  
     Inside of the Bot application, on the side bar, select "Bot". From there you must enable all of the intents for the bot to be able to read messages.
-    <img alt="Intents" src="/Images/Intents.png">  
-    3. Reset and Obtain the Bot Token  
+    <br>
+    <img alt="Intents" src="/Images/Intents.png">
+    <br><br>
+    
+    4. Reset and Obtain the Bot Token  
     Still inside the "Bot" tab, select the button saying "Reset Token". This might require a 2FA code to be able to reset. Once this is reset, it will give the token that needs to be placed into `.env`.
+    <br>
     <img alt="Reset" src="/Images/Reset.png">
 
 
-4. Setup .env  
+5. Setup .env  
 Here is a .env example. Replace "your_token_here" with a token obtained from Discord's developer portal.
 ```bash
 DISCORD_TOKEN=your_token_here
@@ -45,8 +51,8 @@ DISCORD_TOKEN=your_token_here
     4. Paste the generated URL on your address bar.
     5. Select the server you would like the bot to join and approve the permissions.
     <p align="center">
-        <img alt="SelectServer" src="/Images/SelectServer.png" align="left" width="50%">
-        <img alt="SelectPerms" src="/Images/SelectPerms.png" align="left" width="50%">
+        <img alt="SelectServer" src="/Images/SelectServer.png" width="45%">
+        <img alt="SelectPerms" src="/Images/SelectPerms.png" width="45%">
     </p>
 
 6. Running the bot
