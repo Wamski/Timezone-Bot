@@ -44,8 +44,10 @@ DISCORD_TOKEN=your_token_here
     <img alt="Perms" src="/Images/Perms.png">
     4. Paste the generated URL on your address bar.
     5. Select the server you would like the bot to join and approve the permissions.
-    <img alt="SelectServer" src="/Images/SelectServer.png" align="left" width="50%">
-    <img alt="SelectPerms" src="/Images/SelectPerms.png" align="left" width="50%">
+    <p align="center">
+        <img alt="SelectServer" src="/Images/SelectServer.png" align="left" width="50%">
+        <img alt="SelectPerms" src="/Images/SelectPerms.png" align="left" width="50%">
+    </p>
 
 6. Running the bot
 ```bash
