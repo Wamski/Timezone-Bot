@@ -21,12 +21,13 @@ pip3 install -r requirements.txt
 ```
 3. Obtain a Discord Bot Token
     <img align="right" alt="NewApp" width=30% src="/Images/NewApp.png">
+    1. Go to Discord's Developer Portal `https://discord.com/developers/applications`
 
-    1. Create a new App  
+    2. Create a new App  
 
-    2. Enable Intents  
-    Inside of the Bot application, on the side bar, select "Bot". From there you must enable all of the intents for the bot to be able to read messages.
-    <br>
+    3. Enable Intents  
+    Inside of the Bot application, on the side bar, select "Bot". From there you must enable all of the intents for the bot to be able to read messages.  
+    
     <img alt="Intents" src="/Images/Intents.png">
     <br><br>
     
