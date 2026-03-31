@@ -49,7 +49,7 @@ DISCORD_TOKEN=your_token_here
         <img alt="Bot" src="/Images/Bot.png">  
     3. Bot permissions: Select "Send Messages" and "Read Message History"  
         <img alt="Perms" src="/Images/Perms.png">  
-    4. Paste the generated URL on your address bar.  
+    4. Paste the generated URL in your address bar.  
     5. Select the server you would like the bot to join and approve the permissions.  
     <p align="center">
         <img alt="SelectServer" src="/Images/SelectServer.png" width="45%">
