@@ -14,7 +14,7 @@ python3 -m venv .venv
 
 2. Install dependencies  
     1. Activate the virtual environment
-    2. Install dependecies
+    2. Install dependencies
 ```bash
 source .venv/bin/activate
 pip3 install -r requirements.txt
